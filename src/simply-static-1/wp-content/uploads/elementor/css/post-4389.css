@@ -1,0 +1,39 @@
+.elementor-4389 .elementor-element.elementor-element-6f51db77{text-align:center;}.elementor-4389 .elementor-element.elementor-element-6f51db77 .elementor-heading-title{color:#54595F;font-size:1.5em;font-weight:300;line-height:1em;}.elementor-4389 .elementor-element.elementor-element-301474ef{text-align:center;}.elementor-4389 .elementor-element.elementor-element-301474ef .elementor-heading-title{color:#000000;font-size:3em;font-weight:bold;line-height:1em;}.elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms label.wpforms-error{display:block !important;color:#F84343;font-size:20px;font-weight:bold;}.elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-field input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-field textarea, .elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-field select{text-align:left;border-style:solid;border-width:1px 1px 1px 1px;border-color:#DBDBDB;border-radius:5px 5px 5px 5px;box-shadow:0px 0px 5px 0px rgba(0, 0, 0, 0.25) inset;}.elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-field{margin-bottom:25px;}.elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-field input::-webkit-input-placeholder, .elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-field textarea::-webkit-input-placeholder{color:#D5D5D5;}.elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-submit-container{text-align:left;}.elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-submit-container .wpforms-submit{display:inline-block;background-color:#F84343;color:#FFFFFF;border-radius:5px 5px 5px 5px;padding:10px 25px 10px 25px;}.elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-submit-container .wpforms-submit:hover{background-color:#000000;}.elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms input.wpforms-error, .elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms textarea.wpforms-error{border-width:1px;}.elementor-4389 .elementor-element.elementor-element-7057ef19 .pp-wpforms .wpforms-confirmation-container-full{font-weight:bold;color:#61CE70;}#elementor-popup-modal-4389 .dialog-message{width:80vw;height:80vh;align-items:flex-start;padding:25px 25px 25px 25px;}#elementor-popup-modal-4389{justify-content:center;align-items:center;pointer-events:all;background-color:rgba(0,0,0,.8);}#elementor-popup-modal-4389 .dialog-close-button{display:block;}#elementor-popup-modal-4389 .dialog-widget-content{animation-duration:1.2s;border-radius:15px 15px 15px 15px;}@media(max-width:1024px){.elementor-4389 .elementor-element.elementor-element-6f51db77{text-align:center;}.elementor-4389 .elementor-element.elementor-element-6f51db77 .elementor-heading-title{font-size:1.25em;}.elementor-4389 .elementor-element.elementor-element-301474ef{text-align:center;}.elementor-4389 .elementor-element.elementor-element-301474ef .elementor-heading-title{font-size:3em;line-height:1em;}}@media(max-width:767px){.elementor-4389 .elementor-element.elementor-element-6f51db77{text-align:center;}.elementor-4389 .elementor-element.elementor-element-6f51db77 .elementor-heading-title{font-size:18px;line-height:1em;}.elementor-4389 .elementor-element.elementor-element-301474ef{text-align:center;}.elementor-4389 .elementor-element.elementor-element-301474ef .elementor-heading-title{font-size:35px;}#elementor-popup-modal-4389 .dialog-message{width:95vw;height:95vh;padding:10px 10px 10px 10px;}#elementor-popup-modal-4389{justify-content:center;align-items:center;}#elementor-popup-modal-4389 .dialog-close-button{top:0%;font-size:25px;}body:not(.rtl) #elementor-popup-modal-4389 .dialog-close-button{right:2.5%;}body.rtl #elementor-popup-modal-4389 .dialog-close-button{left:2.5%;}}/* Start custom CSS for pp-wpforms, class: .elementor-element-7057ef19 */@media screen and (min-width: 600px) { 
+li.depth-1.wpforms-image-choices-item {
+    width: 30%;
+    }
+}
+
+@media screen and (max-width: 599px) { 
+li.depth-1.wpforms-image-choices-item {
+    width: 45%;
+    }
+    
+}
+
+#wpforms-3136-field_31 {
+    text-align: center;
+}
+
+div.wpforms-container-full .wpforms-form ul.wpforms-image-choices-modern label:not(.wpforms-error):hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,.25);
+}
+
+div.wpforms-container-full .wpforms-form ul.wpforms-image-choices-modern label:not(.wpforms-error) {
+    border-radius: 10px;
+}
+
+.no-space {
+    padding:0px !important;
+}/* End custom CSS */
+/* Start custom CSS */@media screen and (min-width: 769px) {
+    
+
+.nodrop .elementor-element-populated {
+    box-shadow: none !important;
+}
+}
+
+*{
+    hyphens: auto;
+}/* End custom CSS */

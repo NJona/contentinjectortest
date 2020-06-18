@@ -1,0 +1,68 @@
+
+.uc_stylish_social_buttons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_stylish_social_buttons{
+	position:relative;
+	width:100%;
+	text-align: center;
+}
+
+.uc_stylish_social_buttons .uc_social-button {
+    background-color: #fff;
+    border-radius: 28%;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 10px;
+    opacity: 0.99;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59) 0s;
+    width: 90px;
+}
+.uc_stylish_social_buttons .uc_social-button::before {
+    background-color: #000;
+    content: "";
+    height: 120%;
+    left: -110%;
+    position: absolute;
+    top: 90%;
+    transform: rotate(45deg);
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59) 0s;
+    width: 120%;
+}
+.uc_stylish_social_buttons .uc_social-button .fa {
+    font-size: 38px;
+    transform: scale(0.8);
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59) 0s;
+    vertical-align: middle;
+}
+
+.uc_stylish_social_buttons .uc_social-button:focus::before, 
+.uc_stylish_social_buttons .uc_social-button:hover::before {
+    left: -10%;
+    top: -10%;
+}
+
+
+
+
+.uc_stylish_social_buttons .uc_social-button:hover .fa {
+	color:#fff;
+}
+
+
+
+
+
+
+
+

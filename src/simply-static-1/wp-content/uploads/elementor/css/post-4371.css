@@ -1,0 +1,16 @@
+.elementor-4371 .elementor-element.elementor-element-d60043c > .elementor-container{max-width:800px;}.elementor-4371 .elementor-element.elementor-element-d60043c{overflow:hidden;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-4371 .elementor-element.elementor-element-d60043c:not(.elementor-motion-effects-element-type-background), .elementor-4371 .elementor-element.elementor-element-d60043c > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(300deg, #006CB0 0%, #1DE0E7 100%);}.elementor-4371 .elementor-element.elementor-element-d60043c > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-4371 .elementor-element.elementor-element-c0b9e0c{text-align:center;z-index:1;}.elementor-4371 .elementor-element.elementor-element-c0b9e0c .elementor-heading-title{color:#FFFFFF;font-size:160px;font-weight:bold;}.elementor-4371 .elementor-element.elementor-element-b6da2a2{text-align:center;}.elementor-4371 .elementor-element.elementor-element-b6da2a2 .elementor-heading-title{color:#FFFFFF;}.elementor-4371 .elementor-element.elementor-element-0a6a2d6 .elementor-button{fill:#FFFFFF;color:#FFFFFF;background-color:#F84343;}.elementor-4371 .elementor-element.elementor-element-0a6a2d6 .elementor-button:hover, .elementor-4371 .elementor-element.elementor-element-0a6a2d6 .elementor-button:focus{background-color:#000000;}.elementor-4371 .elementor-element.elementor-element-0a6a2d6{z-index:1;}.elementor-4371 .elementor-element.elementor-element-ff93935{z-index:0;}/* Start custom CSS for image, class: .elementor-element-ff93935 */.rocket {
+    position: absolute;
+    overflow: hidden;
+    z-index:-1;
+    left:-150%;
+    animation: fly 3s ease;
+    animation-delay: 5s;
+}
+
+@keyframes fly {
+    0% {display:block; left: -150%; opacity:0; transform: rotate(0deg); bottom: -100%;}
+    10% {opacity: 1;}
+    80% {opacity: 1;}
+    90% {opacity: 0;}
+    100% {left: 150%; transform: rotate(-20deg); bottom: 150%; display:none;}
+}/* End custom CSS */

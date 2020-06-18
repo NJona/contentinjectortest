@@ -1,0 +1,224 @@
+.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-container{max-width:1200px;min-height:500px;}.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-container:after{content:"";min-height:inherit;}.elementor-5374 .elementor-element.elementor-element-23118794:not(.elementor-motion-effects-element-type-background), .elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:transparent;background-image:linear-gradient(130deg, #006CB0 0%, #1DE0E7 89%);}.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-background-overlay{background-image:url("./../../2020/03/datenschutz_bg.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;opacity:0.5;mix-blend-mode:multiply;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-5374 .elementor-element.elementor-element-23118794{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-shape-bottom svg{width:calc(260% + 1.3px);height:120px;transform:translateX(-50%) rotateY(180deg);}.elementor-bc-flex-widget .elementor-5374 .elementor-element.elementor-element-1ac55677.elementor-column .elementor-column-wrap{align-items:center;}.elementor-5374 .elementor-element.elementor-element-1ac55677.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-5374 .elementor-element.elementor-element-1ac55677 > .elementor-element-populated{padding:0% 0% 5% 0%;}.elementor-5374 .elementor-element.elementor-element-3060adee{text-align:center;}.elementor-5374 .elementor-element.elementor-element-3060adee .elementor-heading-title{color:#ffffff;font-size:20px;font-weight:300;}.elementor-5374 .elementor-element.elementor-element-73aea7de{text-align:center;}.elementor-5374 .elementor-element.elementor-element-73aea7de .elementor-heading-title{color:#ffffff;font-size:60px;font-weight:bold;line-height:1.2em;}.elementor-5374 .elementor-element.elementor-element-0a4a617{text-align:center;}.elementor-5374 .elementor-element.elementor-element-0a4a617 .elementor-heading-title{color:#000000;font-size:20px;font-weight:bold;}.elementor-5374 .elementor-element.elementor-element-a5cba07{text-align:center;}.elementor-5374 .elementor-element.elementor-element-a5cba07 .elementor-heading-title{color:#000000;font-size:20px;font-weight:bold;}@media(max-width:1024px){.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-container{min-height:350px;}.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-container:after{content:"";min-height:inherit;}.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-shape-bottom svg{height:195px;}.elementor-5374 .elementor-element.elementor-element-23118794{padding:0% 0% 5% 0%;}.elementor-5374 .elementor-element.elementor-element-1ac55677 > .elementor-element-populated{padding:5px 5px 5px 5px;}.elementor-5374 .elementor-element.elementor-element-73aea7de .elementor-heading-title{font-size:40px;}}@media(max-width:767px){.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-container{min-height:280px;}.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-container:after{content:"";min-height:inherit;}.elementor-5374 .elementor-element.elementor-element-23118794 > .elementor-shape-bottom svg{height:50px;}.elementor-5374 .elementor-element.elementor-element-23118794{padding:0px 0px 60px 0px;}.elementor-5374 .elementor-element.elementor-element-3060adee{text-align:center;}.elementor-5374 .elementor-element.elementor-element-3060adee .elementor-heading-title{font-size:18px;}.elementor-5374 .elementor-element.elementor-element-73aea7de{text-align:center;}.elementor-5374 .elementor-element.elementor-element-73aea7de .elementor-heading-title{font-size:25px;}}/* Start custom CSS */.kampagnen {
+    line-height:2;
+    font-weight:bold;
+}
+
+.lay [type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.lay [type=radio] + img {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lay [type=radio]:checked + img {
+  border: 2px solid rgba(0,0,0,.25);
+  box-shadow: 0px 0px 10px rgba(0,0,0.5);
+  border-radius: 5px;
+}
+
+.lay {
+    text-align: center;
+}
+
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.display {
+    position: relative;
+    left: 0px;
+    height: 600px
+}
+
+.desktop, .mobile {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden
+}
+
+iframe {
+    transform: scale(0.34);
+    
+    transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -moz-transform-origin: top left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #fff;
+    border-color: #000;
+    max-width: 1920px !important;
+
+}
+
+.mobile {
+    background-image: url("./../../../../siegel/iphone-optimised.png");
+    position: absolute;
+    width: 150px;
+    height: 309px;
+    top: 250px;
+    right: 25px;
+    z-index: 5
+}
+
+.mobile iframe {
+    width: 375px;
+    height: 812px;
+    top: 10px;
+    left: 11px;
+    overflow-y: hidden;
+    border-radius: 45px;
+
+}
+
+.desktop {
+    position: absolute;
+    width: 566px;
+    height: 538px;
+    background-image: url("./../../../../siegel/large-screen-optimised.png");
+    top: 0px;
+    left: 20px;
+    z-index: 1
+}
+
+.desktop iframe {
+    left: 22px;
+    top: 63px;
+    width: 1920px;
+    height: 1080px;
+    transform: scale(.272);
+    
+    transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -moz-transform-origin: top left
+}
+
+@media (max-width: 1070px) {
+    .display {
+        left:-50px
+    }
+}
+
+@media (max-width: 1000px) {
+    .display {
+        height:500px;
+        transform: scale(0.71);
+        -webkit-transform: scale(0.71);
+        -o-transform: scale(0.71);
+        -ms-transform: scale(0.71);
+        -moz-transform: scale(0.71);
+        top: -40px
+    }
+
+    .desktop {
+        left: 140px
+    }
+
+    .mobile {
+        left: 220px
+    }
+}
+
+@media (max-width: 850px) {
+    .display {
+        height:500px;
+        transform: scale(0.65);
+        -webkit-transform: scale(0.65);
+        -o-transform: scale(0.65);
+        -ms-transform: scale(0.65);
+        -moz-transform: scale(0.65)
+    }
+
+    .desktop {
+        left: 100px
+    }
+
+    .mobile {
+        left: 180px
+    }
+}
+
+@media (max-width: 768px) {
+    .display {
+        height:450px;
+        transform: scale(0.55);
+        -webkit-transform: scale(0.55);
+        -o-transform: scale(0.55);
+        -ms-transform: scale(0.55);
+        -moz-transform: scale(0.55)
+    }
+
+}
+
+@media (max-width: 670px) {
+    .display {
+        height:400px;
+        left: -70px;
+        transform: scale(0.45);
+        -webkit-transform: scale(0.45);
+        -o-transform: scale(0.45);
+        -ms-transform: scale(0.45);
+        -moz-transform: scale(0.45)
+    }
+}
+
+@media (max-width: 560px) {
+    .display {
+        height:270px;
+        top: -65px;
+        transform: scale(0.37);
+        -webkit-transform: scale(0.37);
+        -o-transform: scale(0.37);
+        -ms-transform: scale(0.37);
+        -moz-transform: scale(0.37)
+    }
+}
+
+@media (max-width: 440px) {
+    .display {
+        left:-17px;
+        top: -65px;
+        width: 70px;
+        transform: scale(0.35);
+        -webkit-transform: scale(0.35);
+        -o-transform: scale(0.35);
+        -ms-transform: scale(0.35);
+        -moz-transform: scale(0.35)
+    }
+}
+
+@media (max-width: 380px) {
+    .display {
+        height:235px;
+        left: -17px;
+        top: -65px;
+        width: 70px;
+        transform: scale(0.27);
+        -webkit-transform: scale(0.27);
+        -o-transform: scale(0.27);
+        -ms-transform: scale(0.27);
+        -moz-transform: scale(0.27)
+    }
+
+    .desktop {
+        left: 100px
+    }
+
+    .mobile {
+        left: 180px
+    }
+
+}/* End custom CSS */
